@@ -1,0 +1,476 @@
+{
+    "System Idle Process": {
+        "PID": "0",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "8 КБ"
+    },
+    "System": {
+        "PID": "4",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "144 КБ"
+    },
+    "Registry": {
+        "PID": "172",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "42 916 КБ"
+    },
+    "smss.exe": {
+        "PID": "588",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "1 048 КБ"
+    },
+    "csrss.exe": {
+        "PID": "1044",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "6 952 КБ"
+    },
+    "wininit.exe": {
+        "PID": "692",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "6 424 КБ"
+    },
+    "services.exe": {
+        "PID": "1096",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "11 268 КБ"
+    },
+    "lsass.exe": {
+        "PID": "1116",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "24 392 КБ"
+    },
+    "svchost.exe": {
+        "PID": "492",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "12 344 КБ"
+    },
+    "WUDFHost.exe": {
+        "PID": "1604",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "15 928 КБ"
+    },
+    "fontdrvhost.exe": {
+        "PID": "1652",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "10 684 КБ"
+    },
+    "winlogon.exe": {
+        "PID": "1492",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "13 964 КБ"
+    },
+    "dwm.exe": {
+        "PID": "1908",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "141 208 КБ"
+    },
+    "NVDisplay.Container.exe": {
+        "PID": "8900",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "51 744 КБ"
+    },
+    "amdfendrsr.exe": {
+        "PID": "3188",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "6 980 КБ"
+    },
+    "Memory Compression": {
+        "PID": "3484",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "139 508 КБ"
+    },
+    "dasHost.exe": {
+        "PID": "3624",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "18 800 КБ"
+    },
+    "wlanext.exe": {
+        "PID": "4104",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "10 592 КБ"
+    },
+    "conhost.exe": {
+        "PID": "10288",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "11 600 КБ"
+    },
+    "spoolsv.exe": {
+        "PID": "4192",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "21 428 КБ"
+    },
+    "Intel_PIE_Service.exe": {
+        "PID": "4288",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "9 320 КБ"
+    },
+    "DtsApo4Service.exe": {
+        "PID": "4728",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "10 772 КБ"
+    },
+    "IntelAudioService.exe": {
+        "PID": "4756",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "27 012 КБ"
+    },
+    "FpcSessionService.exe": {
+        "PID": "4764",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "3 356 КБ"
+    },
+    "sqlwriter.exe": {
+        "PID": "4772",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "7 868 КБ"
+    },
+    "urbanvpnserv.exe": {
+        "PID": "4788",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "12 296 КБ"
+    },
+    "wallpaperservice32_c.exe": {
+        "PID": "4796",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "5 840 КБ"
+    },
+    "IntelCpHDCPSvc.exe": {
+        "PID": "4812",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "6 368 КБ"
+    },
+    "TbtP2pShortcutService.exe": {
+        "PID": "4804",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "5 576 КБ"
+    },
+    "ipfsvc.exe": {
+        "PID": "4820",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "5 588 КБ"
+    },
+    "RtkAudUService64.exe": {
+        "PID": "13164",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "12 924 КБ"
+    },
+    "ipf_uf.exe": {
+        "PID": "4848",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "6 352 КБ"
+    },
+    "WMIRegistrationService.exe": {
+        "PID": "4856",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "11 832 КБ"
+    },
+    "pg_ctl.exe": {
+        "PID": "4880",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "5 784 КБ"
+    },
+    "service_update.exe": {
+        "PID": "5264",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "6 816 КБ"
+    },
+    "OfficeClickToRun.exe": {
+        "PID": "4948",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "46 964 КБ"
+    },
+    "mysqld.exe": {
+        "PID": "5664",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "74 604 КБ"
+    },
+    "OneApp.IGCC.WinService.exe": {
+        "PID": "5020",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "36 000 КБ"
+    },
+    "jhi_service.exe": {
+        "PID": "5860",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "6 152 КБ"
+    },
+    "SearchIndexer.exe": {
+        "PID": "6532",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "61 720 КБ"
+    },
+    "postgres.exe": {
+        "PID": "7100",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "9 432 КБ"
+    },
+    "AggregatorHost.exe": {
+        "PID": "7328",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "7 736 КБ"
+    },
+    "dllhost.exe": {
+        "PID": "2880",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "15 852 КБ"
+    },
+    "ipf_helper.exe": {
+        "PID": "8648",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "5 908 КБ"
+    },
+    "sihost.exe": {
+        "PID": "4924",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "27 684 КБ"
+    },
+    "explorer.exe": {
+        "PID": "9368",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "241 876 КБ"
+    },
+    "wallpaper32.exe": {
+        "PID": "9496",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "58 080 КБ"
+    },
+    "taskhostw.exe": {
+        "PID": "8032",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "7 736 КБ"
+    },
+    "ctfmon.exe": {
+        "PID": "10072",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "21 844 КБ"
+    },
+    "StartMenuExperienceHost.exe": {
+        "PID": "11248",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "96 464 КБ"
+    },
+    "RuntimeBroker.exe": {
+        "PID": "13400",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "15 856 КБ"
+    },
+    "SearchApp.exe": {
+        "PID": "10676",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "246 776 КБ"
+    },
+    "PhoneExperienceHost.exe": {
+        "PID": "13244",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "159 172 КБ"
+    },
+    "TextInputHost.exe": {
+        "PID": "12792",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "68 200 КБ"
+    },
+    "SecurityHealthSystray.exe": {
+        "PID": "13012",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "9 380 КБ"
+    },
+    "SecurityHealthService.exe": {
+        "PID": "13040",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "14 756 КБ"
+    },
+    "YandexDisk2.exe": {
+        "PID": "13188",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "51 900 КБ"
+    },
+    "urbanvpn-gui.exe": {
+        "PID": "4684",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "30 500 КБ"
+    },
+    "CompPkgSrv.exe": {
+        "PID": "13536",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "8 836 КБ"
+    },
+    "SystemSettings.exe": {
+        "PID": "15060",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "2 884 КБ"
+    },
+    "ApplicationFrameHost.exe": {
+        "PID": "15084",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "38 712 КБ"
+    },
+    "UserOOBEBroker.exe": {
+        "PID": "15296",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "10 256 КБ"
+    },
+    "SgrmBroker.exe": {
+        "PID": "5620",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "7 740 КБ"
+    },
+    "MsMpEng.exe": {
+        "PID": "14912",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "317 960 КБ"
+    },
+    "NisSrv.exe": {
+        "PID": "14916",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "12 492 КБ"
+    },
+    "SDXHelper.exe": {
+        "PID": "14976",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "18 304 КБ"
+    },
+    "LockApp.exe": {
+        "PID": "9000",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "79 896 КБ"
+    },
+    "XboxApp.exe": {
+        "PID": "7748",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "45 224 КБ"
+    },
+    "pycharm64.exe": {
+        "PID": "8040",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "1 961 032 КБ"
+    },
+    "audiodg.exe": {
+        "PID": "12676",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "15 872 КБ"
+    },
+    "fsnotifier.exe": {
+        "PID": "10812",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "2 676 КБ"
+    },
+    "browser.exe": {
+        "PID": "9276",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "18 192 КБ"
+    },
+    "ShellExperienceHost.exe": {
+        "PID": "10700",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "88 492 КБ"
+    },
+    "SearchProtocolHost.exe": {
+        "PID": "4060",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "15 240 КБ"
+    },
+    "WmiPrvSE.exe": {
+        "PID": "8224",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "10 536 КБ"
+    },
+    "SearchFilterHost.exe": {
+        "PID": "14416",
+        "session_name": "Services",
+        "№": "0",
+        "memory": "7 608 КБ"
+    },
+    "python.exe": {
+        "PID": "10460",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "11 568 КБ"
+    },
+    "cmd.exe": {
+        "PID": "11804",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "4 408 КБ"
+    },
+    "tasklist.exe": {
+        "PID": "14252",
+        "session_name": "Console",
+        "№": "1",
+        "memory": "9 392 КБ"
+    }
+}
