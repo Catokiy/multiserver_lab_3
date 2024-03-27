@@ -29,11 +29,6 @@ while flag:
     if message == 'close':
         sock.send(message.encode())
         flag = False
-
-    elif message == 'ping':
-        sock.send(message.encode())
-        print(sock.recv(1024).decode())
-
     elif message == 'update':
         sock.send(message.encode())
         package_len = int(sock.recv(1024))
