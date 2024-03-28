@@ -44,12 +44,12 @@ def client_thread(conn):
         print(data.decode())
         if data == b'close':
             break
-        if data == b'update':
+        if data == b'tasklist':
             get_active_processes()
             package = pickle.dumps(json.load(open("server_folder\\data.json", encoding='UTF-8')))
             conn.send(str(len(package)).encode())
             conn.sendall(package)
-        if data == b'update num 4':
+        if data == b'update':
             create_programs_info_json()
             with open('pr_inf.json', 'r', encoding = 'UTF-8') as file:
                 pr_inf = json.load(file)
