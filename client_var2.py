@@ -1,5 +1,3 @@
-import socket
-import struct
 from binarytree import build, Node
 import socket
 
