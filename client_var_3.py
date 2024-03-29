@@ -29,7 +29,7 @@ while flag:
     if message == 'close':
         sock.send(message.encode())
         flag = False
-    elif message == 'update':
+    elif message == 'tasklist':
         sock.send(message.encode())
         package_len = int(sock.recv(1024))
         bytes_received = 0

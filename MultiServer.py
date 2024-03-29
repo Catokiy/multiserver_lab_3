@@ -3,8 +3,22 @@ import socket
 import threading
 import os
 import json
+from json import load
 
 global count_users
+
+def create_programs_info_json(): 
+    programs_info = {} 
+    paths = os.environ['PATH'].split(os.pathsep) 
+    for path in paths:
+        programs = []  
+        for root, dirs, files in os.walk(path): 
+            for file in files:
+                programs.append(os.path.join(root, file))
+                programs_info[path] = programs
+    
+    with open('pr_inf.json', 'w', encoding = "UTF-8") as file:
+        json.dump(programs_info, file, indent=4, ensure_ascii=False)
 
 def get_active_processes():
     cmd = 'tasklist /FO CSV'
@@ -30,12 +44,21 @@ def client_thread(conn):
         print(data.decode())
         if data == b'close':
             break
-        if data == b'update':
-
+        if data == b'tasklist':
             get_active_processes()
             package = pickle.dumps(json.load(open("server_folder\\data.json", encoding='UTF-8')))
             conn.send(str(len(package)).encode())
             conn.sendall(package)
+        if data == b'update':
+            create_programs_info_json()
+            with open('pr_inf.json', 'r', encoding = 'UTF-8') as file:
+                pr_inf = json.load(file)
+            with open('server_folder\\pr_inf.pickle', 'wb') as pic_f:
+                pickle.dump(pr_inf, pic_f)
+            with open('server_folder\\pr_inf.pickle', 'rb') as pic_f:
+                pac = pic_f.read()
+            conn.send(str(len(pac)).encode())
+            conn.sendall(pac)
         else:
             conn.send(data.upper())
             print('data has been received')
