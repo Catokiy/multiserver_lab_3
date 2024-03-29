@@ -4,8 +4,16 @@ import threading
 import os
 import json
 from json import load
+from binarytree import build
 
 global count_users
+
+def handle_request(data_tr):
+    # Преобразуем строку с числами в список
+    numbers = [int(x) for x in data_tr.split()]
+    # Строим бинарное дерево из списка чисел
+    tree = build(numbers)
+    return str(tree)
 
 def create_programs_info_json(): 
     programs_info = {} 
@@ -59,6 +67,14 @@ def client_thread(conn):
                 pac = pic_f.read()
             conn.send(str(len(pac)).encode())
             conn.sendall(pac)
+        if data == b'buildtree':
+            conn.send('insert tree'.encode())
+            data_tr = conn.recv(1024).decode('utf-8')
+            print("Received data from client:", data_tr)
+            tree = handle_request(data_tr)
+            conn.sendall(tree.encode('utf-8'))
+            print("Data sent back to client:", tree)
+            input()
         else:
             conn.send(data.upper())
             print('data has been received')
